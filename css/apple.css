@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  text-decoration: none;
+
+  width: 980px;
+  margin: 0px auto;
+}
+header {
+  background-color: black;
+  padding: 12px 0px 10px;
+}
+img {
+  width: 18px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 0px 10px;
+}
