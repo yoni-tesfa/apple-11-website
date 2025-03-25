@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+img {
+  width: 100%;
+}
 ul {
   display: flex;
   list-style: none;
@@ -23,6 +26,12 @@ li a {
   text-decoration: none;
   padding: 12px 0px 10px;
 }
+a {
+  color: #06c;
+}
+a:hover {
+  color: black;
+}
 .sec-div1 {
   text-align: center;
 }
@@ -42,11 +51,76 @@ li a {
   text-decoration: none;
   font-size: 20px;
 }
-.section-1 {
+.macbook {
   margin: 20px auto 0px auto;
   width: 980px;
-  padding: 0px 10px;
+  padding: 25px 0px;
 }
 .laptop-img img {
-  padding-left: 152px;
+  padding-left: 120px;
+  width: 721px;
+}
+.iphone-11-pro {
+  text-align: center;
+  background-image: url(../images/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 20px;
+  color: #fff;
+}
+.iphone-text h1 {
+  font-weight: 600;
+  font-size: 63px;
+}
+.iphone-text h3 {
+  font-size: 29px;
+  padding: 10px 0px;
+}
+.iphone-text p {
+  color: #86868b;
+  font-size: 1.1em;
+  margin-bottom: 13px;
+}
+.iphone-text ul {
+  display: flex;
+  width: 210px;
+  font-size: 25px;
+}
+.iphone-text ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.iphone-text ul li a:hover {
+  color: black;
+}
+.iphone-11 {
+  background-image: url(../images/iphone11-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+  padding: 65px 20px;
+}
+.iphone-11-text {
+  text-align: center;
+}
+.iphone-11-text h1 {
+  font-weight: 600;
+  font-size: 63px;
+}
+.iphone-11-text .text {
+  font-size: 29px;
+  padding: 10px 0;
+}
+.iphone-11-text p {
+  color: #86868b;
+  font-size: 1.1em;
+  margin-bottom: 13px;
+}
+.iphone-11-text a {
+  margin-left: 20px;
+  font-size: 25px;
+  text-decoration: none;
 }
