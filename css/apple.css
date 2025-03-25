@@ -124,3 +124,65 @@ a:hover {
   font-size: 25px;
   text-decoration: none;
 }
+.watch-card {
+  display: flex;
+}
+.watch {
+  background-image: url(../images/watch-series-5.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%;
+  padding-top: 54px;
+}
+.watch img {
+  font-size: 40px;
+  font-weight: bold;
+  width: 156px;
+}
+.watch p {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.watch a {
+  margin-left: 5px;
+  margin-right: 38px;
+  font-size: 25px;
+  text-decoration: none;
+}
+.card {
+  background-image: url(../images/apple-card.jpg);
+}
+
+.card {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+.card img {
+  width: 236px;
+}
+.card p {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.card a {
+  margin-left: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
