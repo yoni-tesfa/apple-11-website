@@ -257,3 +257,70 @@ a:hover {
   font-size: 20px;
   margin-left: 5px;
 }
+.macbook-ipad {
+  display: flex;
+}
+.sec-macbook {
+  background-image: url(../images/macbook-pro.jpg);
+  height: 580px;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%;
+  padding-top: 54px;
+}
+.sec-macbook a {
+  margin-left: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
+.sec-macbook a::after {
+  content: " >";
+  font-size: 20px;
+  margin-left: 5px;
+}
+.sec-macbook h1 {
+  font-size: 50px;
+  margin-bottom: 13px;
+}
+#text-1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#text-2 {
+  font-size: 23px;
+  margin-bottom: 19px;
+}
+.ipad {
+  background-image: url(../images/new-ipad.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+.ipad img {
+  width: 76px;
+  margin-bottom: 10px;
+}
+.ipad p {
+  font-size: 22px;
+  margin-bottom: 17px;
+  margin-top: 6px;
+}
+.ipad a {
+  margin-left: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
+.ipad a::after {
+  content: " >";
+  font-size: 20px;
+  margin-left: 5px;
+}
